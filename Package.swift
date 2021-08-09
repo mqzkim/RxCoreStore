@@ -38,7 +38,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/JohnEstropia/CoreStore.git",
                  .revision("5fbb1ab09dcf46aa400a024cd4bbe15875ae9f2a")),
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0"))
+        .package(url: "https://github.com/ReactiveX/RxSwift.git", .exact("6.0.0"))
     ],
     targets: [
         .target(
