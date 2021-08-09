@@ -48,7 +48,8 @@ let package = Package(
                 .product(name: "RxSwift", package: "RxSwift"),
                 .product(name: "RxCocoa", package: "RxSwift")
             ],
-            path: "Sources"
+            path: "Sources",
+            exclude: ["Info.plist"]
         ),
         .testTarget(
             name: "RxCoreStoreTests",
